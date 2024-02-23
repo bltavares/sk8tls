@@ -1,0 +1,22 @@
+[package]
+name = "sk8tls"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
+tower-lsp = "*"
+lsp-types = "*"
+
+located_yaml = "*"
+
+tracing = "*"
+tracing-subscriber = "*"
+tracing-appender = "*"
+
+serde = "*"
+simd-json = "*"
+
+
+[dev-dependencies]
+pretty_assertions = "*"

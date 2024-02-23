@@ -1,0 +1,15 @@
+{
+    "method": "textDocument/didChange",
+    "jsonrpc": "2.0",
+    "params": {
+        "contentChanges": [
+            {
+                "text": ""
+            }
+        ],
+        "textDocument": {
+            "uri": "file:///tmp/foo/foobar.rb",
+            "version": 6
+        }
+    }
+}
